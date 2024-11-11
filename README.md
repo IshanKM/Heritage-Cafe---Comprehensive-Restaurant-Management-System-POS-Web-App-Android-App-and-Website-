@@ -1,4 +1,4 @@
-# Complete Restaurant Management System for Heritage Cafe 
+# Complete Restaurant Management System for Heritage Cafe (Galle)
 Tech Stack
 POS System - Java, MySQL 
 Web Application - PHP , MySQL
