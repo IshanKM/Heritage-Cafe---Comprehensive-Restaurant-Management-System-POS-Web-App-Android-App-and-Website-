@@ -1,1 +1,6 @@
-# Heritage-Cafe---Comprehensive-Restaurant-Management-System-POS-Web-App-Android-App-and-Website-
+# Complete Restaurant Management System for Heritage Cafe 
+Tech Stack
+POS System - Java, MySQL 
+Web Application - PHP , MySQL
+Website - HTML , CSS , bootstrap
+Android App - JAVA , MySQL
