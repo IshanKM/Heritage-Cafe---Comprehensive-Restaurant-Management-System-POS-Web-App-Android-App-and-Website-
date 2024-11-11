@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/popborder"
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Popupdetails">
+
+    <TextView
+        android:id="@+id/showmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal"
+        android:text="ARE YOU SURE ?"
+        android:textColor="@color/mywhite"
+        android:textSize="24dp"
+        app:fontFamily="@font/alfa_slab_one" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="Yes"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:layout_marginRight="10dp"
+            android:background="#06A11B"/>
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:layout_weight=".5"
+            android:text="No"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_red_dark"/>
+
+    </LinearLayout>
+
+</LinearLayout>

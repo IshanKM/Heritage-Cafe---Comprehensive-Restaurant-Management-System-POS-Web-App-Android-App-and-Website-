@@ -1,0 +1,3 @@
+index.php File is Welcome and First Page..
+Begin.php File is Web Application Page..(get Orders From Customers)..
+storeorders.php File is Thank You Page and store orders in Database.

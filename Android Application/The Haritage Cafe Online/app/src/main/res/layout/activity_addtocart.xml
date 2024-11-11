@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Addtocart"
+    android:background="@android:color/black">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight=".0"
+        android:gravity="center_horizontal"
+        android:text="ADD TO CART"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="30sp"
+        app:fontFamily="@font/alfa_slab_one" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewcart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".7"
+        android:background="@android:color/black"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="0.4"
+            android:gravity="center_horizontal"
+            android:text="Total Is Rs. "
+            android:textColor="@color/cardview_light_background"
+            android:textSize="30sp"
+            app:fontFamily="@font/aclonica" />
+
+        <TextView
+            android:id="@+id/priceshow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:text="0"
+            android:layout_weight="0.6"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="30sp"
+            app:fontFamily="@font/aclonica" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ordersend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight=".0"
+        android:background="#FF0000"
+        android:text="Place the Order"
+        android:textColor="@color/mywhite"
+        android:textSize="24sp" />
+
+</LinearLayout>

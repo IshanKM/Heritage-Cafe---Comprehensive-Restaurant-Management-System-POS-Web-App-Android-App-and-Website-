@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    android:background="@drawable/popborder">
+
+    <TextView
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/white"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="LOG OUT"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/yourdetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="YOUR DETAILS"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/aboutus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="ABOUT US"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"/>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+android app PHP part Folder contain all database handle files of android app.
+we use volly and json for Communucate this files and android app.
+
+first need to export the_heritage_cafe.sql database in Xampp or Wampp Server.
+we used XAMPP for database.
+this file should in inside of htdots folder(ex:- C:\xampp\htdocs)
+And change the ip address(your Computer ip address) of (Important.class) class of inside android app.
+
+ 
